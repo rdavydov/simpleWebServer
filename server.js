@@ -23,6 +23,9 @@ http.createServer(function(req, res) {
 	console.log('Loading ' + uri);
 	var stats;
 
+	// setting server's id
+	res.setHeader('Server', 'simpleWebServer on node.js');
+	
 	try	{
 		stats = fs.lstatSync(fileName);
 	} catch (e) {
