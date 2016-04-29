@@ -1,0 +1,23 @@
+{
+  "name": "simplewebserver",
+  "version": "1.0.0",
+  "description": "simplicity as it is",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdavydov/simpleWebServer.git"
+  },
+  "author": "Roman Davydov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdavydov/simpleWebServer/issues"
+  },
+  "homepage": "https://github.com/rdavydov/simpleWebServer#readme"
+}
